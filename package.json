@@ -1,6 +1,6 @@
 {
-  "name": "@mapbox/spritezero",
-  "version": "6.1.2",
+  "name": "haizhi-mapbox-spritezero",
+  "version": "1.0.0",
   "main": "./index.js",
   "description": "small opinionated sprites",
   "author": "Tom MacWright",
@@ -13,10 +13,13 @@
     "icons",
     "json"
   ],
+  "publishConfig": {
+    "registry": "https://artifactory.haizhi.com/artifactory/api/npm/npm/"
+  },
   "dependencies": {
     "@mapbox/shelf-pack": "~3.0.0",
     "json-stable-stringify": "^1.0.1",
-    "mapnik": "^4.3.1",
+    "haizhi-mapnik": "4.0.0",
     "queue-async": "^1.2.1",
     "svg-boundings": "^2.0.3",
     "svgo": "^1.3.0",

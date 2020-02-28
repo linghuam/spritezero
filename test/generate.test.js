@@ -5,7 +5,7 @@ var test = require('tap').test,
     queue = require('queue-async'),
     stringify = require('json-stable-stringify'),
     spritezero = require('../'),
-    mapnik = require('mapnik');
+    mapnik = require('haizhi-mapnik');
 
 // eslint-disable-next-line no-process-env
 var update = process.env.UPDATE;
