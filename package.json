@@ -1,6 +1,6 @@
 {
   "name": "haizhi-mapbox-spritezero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./index.js",
   "description": "small opinionated sprites",
   "author": "Tom MacWright",
